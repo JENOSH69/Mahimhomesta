@@ -55,52 +55,52 @@ window.addEventListener('scroll', () => {
 });
 const galleryData = [
   {
-    src: "../IMAGE/R-2.jpeg",
+    src: "IMAGE/R-2.jpeg",
     alt: "Cozy Wooden Cottage Room",
     text: "Room - I"
   },
   {
-    src: "../IMAGE/R-1.jpeg",
+    src: "IMAGE/R-1.jpeg",
     alt: "Organic Traditional Meal",
     text: "Room - I "
   },
   {
-    src: "../IMAGE/R-4.jpeg",
+    src: "IMAGE/R-4.jpeg",
     alt: "Peaceful Garden View",
     text: "Room - I "
   },
   {
-    src: "../IMAGE/R-2-2.jpeg",
+    src: "IMAGE/R-2-2.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Room - II"
   },
   {
-    src: "../IMAGE/R-1.jpeg",
+    src: "IMAGE/R-1.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Room - II "
   },
    {
-    src: "../IMAGE/R-2-1.jpeg",
+    src: "IMAGE/R-2-1.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Room - II "
   },
    {
-    src: "../IMAGE/H-8.jpeg",
+    src: "IMAGE/H-8.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Environment "
   },
    {
-    src: "../IMAGE/H-10.jpeg",
+    src: "IMAGE/H-10.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Property "
   },
    {
-    src: "../IMAGE/H-9.jpeg",
+    src: "IMAGE/H-9.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Property "
   },
    {
-    src: "../IMAGE/h-image5.jpeg",
+    src: "IMAGE/h-image5.jpeg",
     alt: "Traditional Firewood Kitchen",
     text: "Property "
   },
