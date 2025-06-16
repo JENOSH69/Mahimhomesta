@@ -63,5 +63,37 @@ document.querySelectorAll('#sidebar a[href^="#"]').forEach(link => {
   });
 });
 
+// rooms slider //
+
+let currentIndexes = [0, 0];
+let autoIntervals = [];
+
+function moveSlide(step, groupIndex) {
+  const group = document.querySelector(`.slide-group-${groupIndex}`);
+  const images = group.querySelectorAll("img");
+  currentIndexes[groupIndex] += step;
+
+  if (currentIndexes[groupIndex] >= images.length) {
+    currentIndexes[groupIndex] = 0;
+  } else if (currentIndexes[groupIndex] < 0) {
+    currentIndexes[groupIndex] = images.length - 1;
+  }
+
+  const offset = currentIndexes[groupIndex] * -100;
+  group.style.transform = `translateX(${offset}%)`;
+}
+
+function startAutoSlide(groupIndex) {
+  autoIntervals[groupIndex] = setInterval(() => {
+    moveSlide(1, groupIndex);
+  }, 5000);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".slides").forEach((group, index) => {
+    group.style.transform = "translateX(0%)";
+    startAutoSlide(index);
+  });
+});
 
 
