@@ -13,33 +13,36 @@ function closeSidebar() {
 
 // Image slider
 let slideIndex = 0;
-const slides = document.querySelectorAll('.slides img');
-const slidesContainer = document.querySelector('.slides');
+const slides = document.querySelectorAll(".slide");
+const slidesContainer = document.getElementById("slidesContainer");
 
 function showSlide(index) {
-  if (index >= slides.length) slideIndex = 0;
-  if (index < 0) slideIndex = slides.length - 1;
+  slideIndex = (index + slides.length) % slides.length; // handles negative wrap
   slidesContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
 }
 
 function nextSlide() {
-  slideIndex++;
-  showSlide(slideIndex);
+  showSlide(slideIndex + 1);
 }
 
 function prevSlide() {
-  slideIndex--;
-  showSlide(slideIndex);
+  showSlide(slideIndex - 1);
 }
+
+// Auto-slide
+setInterval(nextSlide, 5000);
+
+// Initialize
+window.onload = () => {
+  showSlide(slideIndex);
+};
+
 
 // Auto-slide every 5 seconds
 setInterval(() => {
-  slideIndex++;
-  showSlide(slideIndex);
+  nextSlide();
 }, 5000);
 
-// Initialize first slide
-window.onload = () => showSlide(slideIndex);
 
 // Scroll animation for About Us section
 window.addEventListener('scroll', () => {
