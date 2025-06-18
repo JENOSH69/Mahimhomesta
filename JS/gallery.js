@@ -104,6 +104,67 @@ const galleryData = [
     alt: "Traditional Firewood Kitchen",
     text: "Property "
   },
+  {
+    src: "IMAGE/G-1.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Temple "
+  },
+  {
+    src: "IMAGE/G-2.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-3.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-4.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-5.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-6.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-7.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-8.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest"
+  },
+  {
+    src: "IMAGE/G-9.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest"
+  },
+  {
+    src: "IMAGE/G-10.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest "
+  },
+  {
+    src: "IMAGE/G-11.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest"
+  },
+  {
+    src: "IMAGE/G-12.jpeg",
+    alt: "Traditional Firewood Kitchen",
+    text: "Guest"
+  },
+  
   // Add more images here as needed
 ];
 
